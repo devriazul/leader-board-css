@@ -90,6 +90,12 @@ blogs section styles
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 24px;
 }
+.course{
+    height: 250px;
+    width: 270px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
 .course .course-banner img{
     width: 224px;
     height: 104px;
