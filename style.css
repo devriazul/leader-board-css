@@ -93,8 +93,6 @@ blogs section styles
 .course{
     height: 250px;
     width: 270px;
-    border: 1px solid whitesmoke;
-    border-radius: 5px;
 }
 .course .course-banner img{
     width: 224px;
@@ -113,4 +111,28 @@ blogs section styles
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Media Query */
+
+@media only screen and (max-width:688px){
+    .players, .blogs, .courses{
+        background-color: red;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container{
+        width: 100%;
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+}
+
+/* Tablet Devices  */
+
+@media only screen and (min-width: 688px) and (max-width:992px){
+    .players, .courses{
+        background-color: yellowgreen;
+        grid-template-columns: repeat(2,1fr);
+    }
 }
