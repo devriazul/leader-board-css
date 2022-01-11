@@ -1,3 +1,15 @@
+/* Fonts */
+
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">);
+
+/* common style */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Top Player Style */
 
 .players{
